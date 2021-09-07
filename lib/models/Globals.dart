@@ -1,0 +1,2 @@
+var fullNumber;
+var uid;
