@@ -64,12 +64,14 @@ class PayDialogeState extends State<PayDialoge> {
                 height: 40,
                 style: GooglePayButtonStyle.black,
                 type: GooglePayButtonType.pay,
+                
                 margin: const EdgeInsets.only(top: 15.0),
                 onPaymentResult: (data) {
                   print(data);
                 },
                 loadingIndicator: const Center(
                   child: CircularProgressIndicator(),
+                  
                 ),
               ),
             )
@@ -79,5 +81,3 @@ class PayDialogeState extends State<PayDialoge> {
     );
   }
 }
-
- 
